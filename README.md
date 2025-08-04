@@ -109,48 +109,20 @@ sudo yum install nmap
 
 ```bash
 # Clonar repositorio empresarial
-git clone https://github.com/Pabloescobarxde/Stelarysv1.git
+git clone https://github.com/Pabloescobarxde/Stelarys Tool
 cd Stelarysv1
 
 # Configurar permisos de seguridad
-chmod +x stelarys.py
+chmod +x main.py
 chmod +x start.bat
 ```
 
 ---
 
-## 🔍 Acerca de Stelarys Tool
-
-<div align="center">
-
-**Stelarys Tool** es una plataforma empresarial de ciberseguridad especializada en la evaluación y auditoría de infraestructuras Minecraft. Desarrollada con arquitectura modular y tecnologías enterprise-grade.
-
-🎯 **Misión Corporativa**: Proporcionar soluciones profesionales de ciberseguridad para entornos de gaming empresarial y servidores críticos de Minecraft.
-
 </div>
 
-### 🏢 Arquitectura Empresarial
 
-- **🔒 Security-First Design**: Arquitectura basada en principios de seguridad por diseño
-- **📊 Business Intelligence**: Análisis avanzado con reportes ejecutivos
-- **🌐 API-Driven Architecture**: Integración empresarial mediante APIs RESTful
-- **⚡ High-Performance Computing**: Procesamiento distribuido y optimizado
-- **📈 Scalable Infrastructure**: Arquitectura escalable para entornos enterprise
-- **🛡️ Zero-Trust Security Model**: Modelo de seguridad de confianza cero
-
-### 🎯 Casos de Uso Empresariales
-
-- **Auditorías de Seguridad Corporativas**
-- **Compliance y Regulaciones de Gaming**
-- **Análisis de Vulnerabilidades en Tiempo Real**
-- **Monitoreo de Infraestructura Crítica**
-- **Intelligence Gathering y Threat Hunting**
-
----
-
-## ⚡ Comandos y Funcionalidades
-
-### 🖥️ Terminal Empresarial
+### 🖥️ Terminal
 
 ```bash
 Stelarys@pablito:~$ help
@@ -197,10 +169,10 @@ Stelarys@pablito:~$ help
 
 ```bash
 # Método Principal (Python)
-python stelarys.py
+python main.py
 
 # Método Alternativo (Python 3)
-python3 stelarys.py
+python3 main.py
 
 # Windows Enterprise
 start.bat
@@ -208,29 +180,6 @@ start.bat
 # Node.js Service
 node app.js
 ```
-
-### 💼 Casos de Uso Profesionales
-
-#### 🔍 **Auditoría Básica de Servidor**
-```bash
-Stelarys@pablito:~$ servidor mc.example.com
-Stelarys@pablito:~$ scan 192.168.1.100
-```
-
-#### 🌐 **Reconocimiento Completo**
-```bash
-Stelarys@pablito:~$ lookdns example.com
-Stelarys@pablito:~$ subdominio example.com
-Stelarys@pablito:~$ shodan 192.168.1.100
-```
-
-#### 🎯 **Testing Avanzado**
-```bash
-Stelarys@pablito:~$ rutas https://target.com
-Stelarys@pablito:~$ connect mc.target.com:25565
-```
-
----
 
 ## 📜 Licencia Empresarial
 
@@ -255,7 +204,7 @@ Stelarys@pablito:~$ connect mc.target.com:25565
 > - ❌ Actividades que violen términos de servicio
 > - ❌ Bypass de medidas de seguridad sin autorización
 > - ❌ Cualquier actividad que infrinja legislación local
-
+1
 > [!CAUTION]
 > **⚖️ Descargo de Responsabilidad Legal**
 > 
@@ -273,10 +222,9 @@ Stelarys@pablito:~$ connect mc.target.com:25565
 
 <div align="center">
 
-### 👨‍💻 Arquitecto Principal y CEO
-**[Pablito](https://github.com/Pabloescobarxde)** - *Founder & Chief Technology Officer*
+### Arquitecto Principal y CEO
+**[Pablito](https://github.com/Pabloescobarxde)** - *CEO*
 
-*Especialista en ciberseguridad empresarial y arquitecturas de gaming security*
 
 ### 🛠️ Stack Tecnológico Empresarial
 
@@ -297,18 +245,5 @@ Stelarys@pablito:~$ connect mc.target.com:25565
 ---
 
 <div align="center">
-
-**🌟 Stelarys Tool - Enterprise Security Excellence 🛡️**
-
-[![GitHub stars](https://img.shields.io/github/stars/Pabloescobarxde/Stelarysv1.svg?style=social&label=Star&color=gold)](https://github.com/Pabloescobarxde/Stelarysv1)
-[![GitHub forks](https://img.shields.io/github/forks/Pabloescobarxde/Stelarysv1.svg?style=social&label=Fork)](https://github.com/Pabloescobarxde/Stelarysv1/fork)
-
-![Enterprise Users](https://visitor-badge.laobi.icu/badge?page_id=Pabloescobarxde.Stelarysv1&color=gold)
-
----
-
-**🚀 Únete a la revolución de la ciberseguridad empresarial en gaming 🎮**
-
-*Powering secure gaming infrastructure worldwide*
 
 </div>
