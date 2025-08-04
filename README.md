@@ -6,247 +6,291 @@
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white)
+![Shodan](https://img.shields.io/badge/Shodan-FF6B35?style=for-the-badge&logo=shodan&logoColor=white)
 ![Minecraft](https://img.shields.io/badge/Minecraft-62B47A?style=for-the-badge&logo=minecraft&logoColor=white)
 
-![License](https://img.shields.io/badge/License-Custom-red?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Enterprise-gold?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-Enterprise-blue?style=for-the-badge)
 
-**🛡️ Herramienta avanzada de pentesting para Minecraft con tecnologías híbridas**
+**🛡️ Enterprise-Grade Security Assessment Platform for Minecraft Infrastructure**
+
+*Plataforma profesional de análisis de seguridad y auditoría para ecosistemas Minecraft*
 
 </div>
 
 ---
 
-## 🌐 Contenido
+## 🌐 Índice de Contenidos
 
-- [📦 Instalación Rápida](#-instalación-rápida)
-- [🔧 Instalación Manual](#-instalación-manual)
-- [🔍 ¿Qué es Stelarys Tool?](#-qué-es-stelarys-tool)
-- [🚀 Uso](#-uso)
-- [📜 Licencia](#-licencia)
-- [⚠️ Nota importante](#️-nota-importante)
-- [🙏 Créditos](#-créditos)
+- [📦 Instalación Enterprise](#-instalación-enterprise)
+- [🔧 Configuración Manual](#-configuración-manual)
+- [🔍 Acerca de Stelarys Tool](#-acerca-de-stelarys-tool)
+- [⚡ Comandos y Funcionalidades](#-comandos-y-funcionalidades)
+- [🚀 Guía de Uso](#-guía-de-uso)
+- [📜 Licencia Empresarial](#-licencia-empresarial)
+- [⚖️ Términos Legales](#️-términos-legales)
+- [🏢 Información Corporativa](#-información-corporativa)
 
 ---
 
-## 📦 Instalación Rápida
+## 📦 Instalación Enterprise
 
-### 🎯 Instalación Automática
+### 🎯 Despliegue Automático
 
-**Stelarys Tool** se puede instalar automáticamente con todas sus dependencias:
+**Stelarys Tool** ofrece instalación empresarial con gestión automática de dependencias:
 
-#### 🐍 Usando pip (Python)
+#### 🐍 Distribución Python (Recomendado)
 ```bash
 pip install stelarys
 ```
 
-#### 📦 Usando npm (Node.js)
+#### 📦 Distribución Node.js
 ```bash
 npm install stelarys
 ```
 
-> [!TIP]
-> Las instalaciones automáticas incluyen todas las dependencias necesarias y configuran el entorno automáticamente.
+> [!NOTE]
+> **Instalación Corporativa**: Las distribuciones incluyen todas las dependencias críticas, APIs integradas y configuraciones de seguridad pre-establecidas.
 
 ---
 
-## 🔧 Instalación Manual
+## 🔧 Configuración Manual
 
-### 🛠️ Requisitos del Sistema
+### 🏗️ Infraestructura Requerida
 
-Antes de comenzar, asegúrate de tener instalado:
+| Componente | Versión Mínima | Tipo | Descripción |
+|------------|----------------|------|-------------|
+| **Python** | 3.11+ | Core Runtime | Motor principal de procesamiento |
+| **Node.js** | 18+ | API Engine | Servidor de APIs y servicios |
+| **npm** | 9+ | Package Manager | Gestor de dependencias JS |
+| **Nmap** | 7.90+ | Network Scanner | Motor de escaneo de red |
+| **Shodan API** | Latest | Intelligence | Servicio de inteligencia de amenazas |
 
-| Tecnología | Versión Recomendada | Obligatorio |
-|------------|-------------------|-------------|
-| **Python** | 3.11+ | ✅ |
-| **Node.js** | 18+ | ✅ |
-| **npm** | 9+ | ✅ |
-| **Nmap** | 7.90+ | ✅ |
+### 🛠️ Instalación de Componentes
 
-### 🐍 Instalación de Python
-
-> [!IMPORTANT]
-> **MUY IMPORTANTE**: Cuando instales Python, deberás marcar **"Add Python to PATH"** para poder usar pip desde cualquier terminal.
-
-### 🟢 Instalación de Node.js
-
-Descarga e instala Node.js desde [nodejs.org](https://nodejs.org/). Esto incluirá automáticamente **npm**.
-
-### 🗺️ Instalación de Nmap
-
-#### Windows:
+#### Configuración de Python
 ```bash
-# Descarga desde: https://nmap.org/download.html
-# O usando chocolatey:
-choco install nmap
-```
+# Verificar instalación
+python --version
 
-#### Linux (Ubuntu/Debian):
-```bash
-sudo apt update
-sudo apt install nmap
-```
-
-#### macOS:
-```bash
-brew install nmap
-```
-
-### 📥 Clonar el Repositorio
-
-#### Opción 1: Usando Git
-```bash
-git clone https://github.com/Pabloescobarxde/Stelarysv1.git
-cd Stelarysv1
-```
-
-#### Opción 2: Descarga directa
-- Descarga el ZIP del repositorio
-- Pulsa **"Code"** → **"Download ZIP"**
-- Extrae todos los contenidos
-
-> [!CAUTION]
-> **No ejecutes archivos desde dentro del ZIP**. El código necesita acceso a múltiples carpetas y archivos para funcionar correctamente.
-
-### 📦 Instalación de Dependencias
-
-#### Dependencias de Python:
-```bash
+# Instalar dependencias críticas
 pip install -r requirements.txt
 ```
 
-#### Dependencias de Node.js:
+#### Configuración de Node.js
 ```bash
-npm install
+# Verificar instalación
+node --version
+npm --version
+
+# Configurar entorno empresarial
+npm install --production
 ```
 
-> [!NOTE]
-> Si aparecen errores de módulos faltantes, instálalos individualmente:
-> ```bash
-> pip install <nombre_del_modulo>
-> npm install <nombre_del_paquete>
-> ```
+#### Configuración de Nmap
+
+**Windows Enterprise:**
+```powershell
+# Instalación corporativa
+winget install Nmap.Nmap
+```
+
+**Linux Enterprise:**
+```bash
+# Ubuntu/Debian
+sudo apt update && sudo apt install nmap
+
+# RHEL/CentOS
+sudo yum install nmap
+```
+
+### 📥 Despliegue del Sistema
+
+```bash
+# Clonar repositorio empresarial
+git clone https://github.com/Pabloescobarxde/Stelarysv1.git
+cd Stelarysv1
+
+# Configurar permisos de seguridad
+chmod +x stelarys.py
+chmod +x start.bat
+```
 
 ---
 
-## 🔍 ¿Qué es Stelarys Tool?
+## 🔍 Acerca de Stelarys Tool
 
 <div align="center">
 
-**Stelarys Tool** es una herramienta híbrida de pentesting especializada para **Minecraft** que combina la potencia de **Python**, **JavaScript/Node.js** y **Nmap** para ofrecer capacidades avanzadas de análisis de seguridad.
+**Stelarys Tool** es una plataforma empresarial de ciberseguridad especializada en la evaluación y auditoría de infraestructuras Minecraft. Desarrollada con arquitectura modular y tecnologías enterprise-grade.
 
-🎯 **Misión**: Proporcionar una suite completa para auditorías de seguridad y pentesting ético en servidores de Minecraft.
+🎯 **Misión Corporativa**: Proporcionar soluciones profesionales de ciberseguridad para entornos de gaming empresarial y servidores críticos de Minecraft.
 
 </div>
 
-### ✨ Características Principales
+### 🏢 Arquitectura Empresarial
 
-- 🛡️ **Pentesting Avanzado**: Herramientas especializadas para Minecraft
-- 🔍 **Análisis de Red**: Integración con Nmap para escaneo de puertos y servicios  
-- 🐍 **Backend Python**: Procesamiento de datos y lógica principal
-- 🟢 **Frontend Node.js**: Interfaz moderna y APIs RESTful
-- 📊 **Reportes Detallados**: Análisis completos de vulnerabilidades
-- 🎮 **Interfaz Intuitiva**: Fácil de usar para principiantes y expertos
-- ⚡ **Alto Rendimiento**: Arquitectura optimizada para grandes servidores
+- **🔒 Security-First Design**: Arquitectura basada en principios de seguridad por diseño
+- **📊 Business Intelligence**: Análisis avanzado con reportes ejecutivos
+- **🌐 API-Driven Architecture**: Integración empresarial mediante APIs RESTful
+- **⚡ High-Performance Computing**: Procesamiento distribuido y optimizado
+- **📈 Scalable Infrastructure**: Arquitectura escalable para entornos enterprise
+- **🛡️ Zero-Trust Security Model**: Modelo de seguridad de confianza cero
 
-### 🔧 Capacidades Técnicas
+### 🎯 Casos de Uso Empresariales
 
-- **Escaneo de Puertos**: Detección de servicios activos
-- **Análisis de Vulnerabilidades**: Identificación de puntos débiles
-- **Monitoreo en Tiempo Real**: Supervisión continua de seguridad
-- **Generación de Reportes**: Documentación automática de hallazgos
-- **APIs REST**: Integración con otras herramientas
+- **Auditorías de Seguridad Corporativas**
+- **Compliance y Regulaciones de Gaming**
+- **Análisis de Vulnerabilidades en Tiempo Real**
+- **Monitoreo de Infraestructura Crítica**
+- **Intelligence Gathering y Threat Hunting**
 
 ---
 
-## 🚀 Uso
+## ⚡ Comandos y Funcionalidades
 
-### 🎯 Ejecución Principal
+### 🖥️ Terminal Empresarial
 
 ```bash
-# Usando Python
+Stelarys@pablito:~$ help
+```
+
+### 📋 Suite de Comandos Profesionales
+
+| Comando | Función | Descripción Técnica |
+|---------|---------|-------------------|
+| **`help`** | 📚 Documentación | Sistema de ayuda integrado y documentación técnica |
+| **`lookserver`** | 🔍 Discovery | Enumeración y descubrimiento de servidores Minecraft |
+| **`shodan`** | 🌐 Intelligence | Integración con Shodan API para threat intelligence |
+| **`servidor`** | 📊 Analysis | Análisis profundo de infraestructura de servidores |
+| **`lookdns`** | 🔎 DNS Recon | Reconocimiento y análisis de registros DNS |
+| **`jugador`** | 👤 OSINT | Intelligence sobre identidades y nicknames |
+| **`rutas`** | 🛣️ Web Scanning | Escaneo HTTP/HTTPS con wordlists empresariales |
+| **`subdominio`** | 🌐 Subdomain Enum | Enumeración exhaustiva de subdominios |
+| **`url`** | 🔗 Webhook Config | Configuración de webhooks para integraciones |
+| **`scan`** | 🎯 Network Scan | Escaneo de red avanzado con Nmap integration |
+| **`connect`** | 🤖 Bot Deploy | Despliegue de bots para testing automatizado |
+
+### 🔧 Funcionalidades Avanzadas
+
+#### 🎯 **Reconocimiento Pasivo**
+- Enumeración de servidores sin detección
+- Análisis de DNS y subdominios
+- Intelligence gathering con Shodan
+
+#### 🛡️ **Evaluación Activa**
+- Escaneo de puertos con Nmap
+- Análisis de servicios web
+- Testing de conectividad de bots
+
+#### 📊 **Reporting Empresarial**
+- Reportes ejecutivos automatizados
+- Métricas de seguridad en tiempo real
+- Dashboard de vulnerabilidades
+
+---
+
+## 🚀 Guía de Uso
+
+### 🎮 Inicialización del Sistema
+
+```bash
+# Método Principal (Python)
 python stelarys.py
 
-# Usando Python 3 explícitamente
+# Método Alternativo (Python 3)
 python3 stelarys.py
 
-# En Windows (archivo batch)
+# Windows Enterprise
 start.bat
 
-# Usando Node.js
+# Node.js Service
 node app.js
 ```
 
-### 📋 Comandos Básicos
+### 💼 Casos de Uso Profesionales
 
+#### 🔍 **Auditoría Básica de Servidor**
 ```bash
-# Escaneo básico
-stelarys scan -t <target_ip>
+Stelarys@pablito:~$ servidor mc.example.com
+Stelarys@pablito:~$ scan 192.168.1.100
+```
 
-# Análisis completo
-stelarys audit -s <server_address>
+#### 🌐 **Reconocimiento Completo**
+```bash
+Stelarys@pablito:~$ lookdns example.com
+Stelarys@pablito:~$ subdominio example.com
+Stelarys@pablito:~$ shodan 192.168.1.100
+```
 
-# Generar reporte
-stelarys report -o output.html
+#### 🎯 **Testing Avanzado**
+```bash
+Stelarys@pablito:~$ rutas https://target.com
+Stelarys@pablito:~$ connect mc.target.com:25565
 ```
 
 ---
 
-## 📜 Licencia
+## 📜 Licencia Empresarial
 
-> [!NOTE]
-> Al descargar, instalar o usar **Stelarys Tool**, aceptas automáticamente los términos y condiciones especificados en el archivo `LICENSE` de este repositorio.
+> [!IMPORTANT]
+> **Stelarys Tool** opera bajo licencia empresarial personalizada. El uso, distribución o modificación de este software requiere cumplimiento estricto con los términos especificados en el archivo `LICENSE`.
 
 ---
 
-## ⚠️ Nota Importante
+## ⚖️ Términos Legales
 
-> [!WARNING]  
-> **⚖️ Descargo de Responsabilidad Legal**
+> [!WARNING]
+> **🏛️ Marco Legal y Responsabilidades**
 > 
-> - Este software fue desarrollado **exclusivamente con fines educativos** y de investigación en ciberseguridad
-> - **No me hago responsable** de ningún daño, pérdida o consecuencia derivada del uso de esta herramienta
-> - Es **responsabilidad del usuario** utilizar esta herramienta de manera ética y legal
-> - **Solo debe usarse** en sistemas propios o con autorización explícita del propietario
-> - El uso malintencionado de esta herramienta puede ser **ilegal** en tu jurisdicción
+> **Stelarys Tool** es una plataforma profesional diseñada exclusivamente para:
+> - ✅ **Auditorías de seguridad autorizadas**
+> - ✅ **Pentesting ético en infraestructura propia**
+> - ✅ **Compliance empresarial y regulatorio**
+> - ✅ **Investigación académica autorizada**
+> 
+> **Prohibiciones expresas:**
+> - ❌ Uso no autorizado en sistemas de terceros
+> - ❌ Actividades que violen términos de servicio
+> - ❌ Bypass de medidas de seguridad sin autorización
+> - ❌ Cualquier actividad que infrinja legislación local
 
 > [!CAUTION]
-> **🎯 Uso Ético Únicamente**
+> **⚖️ Descargo de Responsabilidad Legal**
 > 
-> Esta herramienta está diseñada para:
-> - ✅ Auditorías de seguridad autorizadas
-> - ✅ Pentesting ético en sistemas propios
-> - ✅ Investigación académica y educativa
-> - ✅ Mejora de la seguridad de servidores propios
+> El desarrollador y los contribuyentes de **Stelarys Tool** no asumen responsabilidad alguna por:
+> - Daños directos o indirectos derivados del uso del software
+> - Uso indebido o contrario a las mejores prácticas de ciberseguridad
+> - Violaciones de términos de servicio de plataformas de terceros
+> - Incumplimiento de legislaciones locales o internacionales
 > 
-> **NO** debe usarse para:
-> - ❌ Ataques no autorizados
-> - ❌ Acceso ilegal a sistemas
-> - ❌ Cualquier actividad maliciosa
+> **Es responsabilidad exclusiva del usuario** asegurar el cumplimiento legal y ético de todas las actividades realizadas con esta herramienta.
 
 ---
 
-## 🙏 Créditos
+## 🏢 Información Corporativa
 
 <div align="center">
 
-### 👨‍💻 Desarrollador Principal
-**[Pablito](https://github.com/Pabloescobarxde)** - *Creador y Desarrollador Principal*
-> *Arquitectura del sistema, desarrollo del core, integración de tecnologías*
+### 👨‍💻 Arquitecto Principal y CEO
+**[Pablito](https://github.com/Pabloescobarxde)** - *Founder & Chief Technology Officer*
 
-### 🤝 Colaboradores Especiales
+*Especialista en ciberseguridad empresarial y arquitecturas de gaming security*
 
-**[@pepitogrillo05_term](https://github.com/pepitogrillo05_term)** - *Colaborador en Reestructuración*
-> *Contribuciones en la optimización y reestructuración del código base*
+### 🛠️ Stack Tecnológico Empresarial
 
-### 🛠️ Tecnologías Utilizadas
+**Tecnologías Core:**
+- **Python 3.11+** - Motor de procesamiento y lógica empresarial
+- **Node.js 18+** - API Gateway y servicios web
+- **Nmap 7.90+** - Motor de escaneo de red enterprise-grade
+- **Shodan API** - Threat intelligence y reconnaissance
+- **JavaScript ES2022** - Frontend y automatización
 
-Agradecimientos especiales a las comunidades de:
-- **Python Software Foundation** por Python
-- **Node.js Foundation** por Node.js  
-- **Nmap Development Team** por Nmap
-- **GitHub** por el hosting del repositorio
+**Infraestructura:**
+- **RESTful APIs** - Integración empresarial
+- **Modular Architecture** - Escalabilidad y mantenimiento
+- **Security-by-Design** - Principios de seguridad integrados
 
 </div>
 
@@ -254,15 +298,17 @@ Agradecimientos especiales a las comunidades de:
 
 <div align="center">
 
-**⭐ Si **Stelarys Tool** te resulta útil, no olvides darle una estrella ⭐**
+**🌟 Stelarys Tool - Enterprise Security Excellence 🛡️**
 
-[![GitHub stars](https://img.shields.io/github/stars/Pabloescobarxde/Stelarysv1.svg?style=social&label=Star)](https://github.com/Pabloescobarxde/Stelarysv1)
+[![GitHub stars](https://img.shields.io/github/stars/Pabloescobarxde/Stelarysv1.svg?style=social&label=Star&color=gold)](https://github.com/Pabloescobarxde/Stelarysv1)
 [![GitHub forks](https://img.shields.io/github/forks/Pabloescobarxde/Stelarysv1.svg?style=social&label=Fork)](https://github.com/Pabloescobarxde/Stelarysv1/fork)
 
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Pabloescobarxde.Stelarysv1)
+![Enterprise Users](https://visitor-badge.laobi.icu/badge?page_id=Pabloescobarxde.Stelarysv1&color=gold)
 
 ---
 
-**🚀 ¡Únete a la comunidad de Stelarys Tool y ayuda a hacer el gaming más seguro! 🛡️**
+**🚀 Únete a la revolución de la ciberseguridad empresarial en gaming 🎮**
+
+*Powering secure gaming infrastructure worldwide*
 
 </div>
