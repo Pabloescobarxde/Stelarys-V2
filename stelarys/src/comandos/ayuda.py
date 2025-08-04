@@ -3,6 +3,7 @@ from stelarys.src.utiles.imports import *
 def help():
     help = f"""
       {GRAY}({G}#{GRAY}) {LY}Help {GRAY}→ {WHITE}Obten nuestra lista de comandos{GRAY}
+      {GRAY}({G}#{GRAY}) {LY}Clear {GRAY}→ {WHITE}Limpia la pantalla{GRAY}
       {GRAY}({G}#{GRAY}) {LY}Lookserver {GRAY}→ {WHITE}Obten nuestra lista de servidores de minecraft{GRAY}
       {GRAY}({G}#{GRAY}) {LY}Shodan {GRAY}→ {WHITE}Obten informacion sobre la api shodan{GRAY}
       {GRAY}({G}#{GRAY}) {LY}Servidor {GRAY}→ {WHITE}Obten informacion sobre un servidor de minecraft{GRAY}
