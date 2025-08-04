@@ -233,12 +233,7 @@ node app.js
 - **Node.js 18+** - API Gateway y servicios web
 - **Nmap 7.90+** - Motor de escaneo de red enterprise-grade
 - **Shodan API** - Threat intelligence y reconnaissance
-- **JavaScript ES2022** - Frontend y automatización
 
-**Infraestructura:**
-- **RESTful APIs** - Integración 
-- **Modular Architecture** - Escalabilidad y mantenimiento
-- **Security-by-Design** - Principios de seguridad integrados
 
 </div>
 
