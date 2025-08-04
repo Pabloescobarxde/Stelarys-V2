@@ -2,6 +2,9 @@
 
 <div align="center">
 
+![Preview](https://media.discordapp.net/attachments/1393487644482343023/1402000676195930316/image.png?ex=68925261&is=689100e1&hm=381c40794ee70bf2d0f57fba6b956cb3a84530d1b63d23c946be43239b782d7b&=&format=webp&quality=lossless&width=1147&height=602)
+
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
