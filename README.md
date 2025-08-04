@@ -28,7 +28,7 @@
 - [🔍 Acerca de Stelarys Tool](#-acerca-de-stelarys-tool)
 - [⚡ Comandos y Funcionalidades](#-comandos-y-funcionalidades)
 - [🚀 Guía de Uso](#-guía-de-uso)
-- [📜 Licencia Empresarial](#-licencia-empresarial)
+- [📜 Licencia ](#-licencia-)
 - [⚖️ Términos Legales](#️-términos-legales)
 - [🏢 Información Corporativa](#-información-corporativa)
 
@@ -38,7 +38,7 @@
 
 ### 🎯 Despliegue Automático
 
-**Stelarys Tool** ofrece instalación empresarial con gestión automática de dependencias:
+**Stelarys Tool** ofrece instalación  con gestión automática de dependencias:
 
 #### 🐍 Distribución Python (Recomendado)
 ```bash
@@ -84,7 +84,7 @@ pip install -r requirements.txt
 node --version
 npm --version
 
-# Configurar entorno empresarial
+# Configurar entorno 
 npm install --production
 ```
 
@@ -108,7 +108,7 @@ sudo yum install nmap
 ### 📥 Despliegue del Sistema
 
 ```bash
-# Clonar repositorio empresarial
+# Clonar repositorio 
 git clone https://github.com/Pabloescobarxde/Stelarys Tool
 cd Stelarysv1
 
@@ -156,7 +156,7 @@ Stelarys@pablito:~$ help
 - Análisis de servicios web
 - Testing de conectividad de bots
 
-#### 📊 **Reporting Empresarial**
+#### 📊 **Reporting **
 - Reportes ejecutivos automatizados
 - Métricas de seguridad en tiempo real
 - Dashboard de vulnerabilidades
@@ -181,10 +181,10 @@ start.bat
 node app.js
 ```
 
-## 📜 Licencia Empresarial
+## 📜 Licencia 
 
 > [!IMPORTANT]
-> **Stelarys Tool** opera bajo licencia empresarial personalizada. El uso, distribución o modificación de este software requiere cumplimiento estricto con los términos especificados en el archivo `LICENSE`.
+> **Stelarys Tool** opera bajo licencia  personalizada. El uso, distribución o modificación de este software requiere cumplimiento estricto con los términos especificados en el archivo `LICENSE`.
 
 ---
 
@@ -196,7 +196,7 @@ node app.js
 > **Stelarys Tool** es una plataforma profesional diseñada exclusivamente para:
 > - ✅ **Auditorías de seguridad autorizadas**
 > - ✅ **Pentesting ético en infraestructura propia**
-> - ✅ **Compliance empresarial y regulatorio**
+> - ✅ **Compliance  y regulatorio**
 > - ✅ **Investigación académica autorizada**
 > 
 > **Prohibiciones expresas:**
@@ -226,17 +226,17 @@ node app.js
 **[Pablito](https://github.com/Pabloescobarxde)** - *CEO*
 
 
-### 🛠️ Stack Tecnológico Empresarial
+### 🛠️ Stack Tecnológico 
 
 **Tecnologías Core:**
-- **Python 3.11+** - Motor de procesamiento y lógica empresarial
+- **Python 3.11+** - Motor de procesamiento y lógica 
 - **Node.js 18+** - API Gateway y servicios web
 - **Nmap 7.90+** - Motor de escaneo de red enterprise-grade
 - **Shodan API** - Threat intelligence y reconnaissance
 - **JavaScript ES2022** - Frontend y automatización
 
 **Infraestructura:**
-- **RESTful APIs** - Integración empresarial
+- **RESTful APIs** - Integración 
 - **Modular Architecture** - Escalabilidad y mantenimiento
 - **Security-by-Design** - Principios de seguridad integrados
 
