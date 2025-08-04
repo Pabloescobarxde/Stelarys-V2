@@ -1,0 +1,68 @@
+INSTALADOR DE PYTHON Y NODE.JS PARA WINDOWS
+===========================================
+
+Este instalador automatiza la descarga e instalación de Python y Node.js en Windows.
+
+📌 ARCHIVOS INCLUIDOS:
+----------------------
+- install.ps1          → Script en PowerShell que instala Python y Node.js
+- run.bat → Abre PowerShell como administrador y ejecuta el script
+- LEEME.txt            → Esta guía
+
+⚙️ ¿CÓMO USARLO?
+----------------------
+1. Haz clic derecho en "run.bat"
+2. Selecciona "Ejecutar como administrador"
+3. Responde a las preguntas:
+   ¿Quieres instalar Python? (y/s para sí, otra tecla para no)
+   ¿Quieres instalar Node.js? (y/s para sí, otra tecla para no)
+
+✅ El script descargará e instalará los programas y los dejará listos para usar.
+
+❗ SI NO FUNCIONA...
+----------------------
+Si nada sucede, o ves errores, aquí tienes alternativas:
+
+1. Asegúrate de que estás ejecutando el archivo `.bat` como ADMINISTRADOR.
+   - Haz clic derecho → "Ejecutar como administrador"
+
+2. Revisa si tu antivirus o Windows bloqueó el script.
+   - A veces bloquea PowerShell por seguridad.
+   - Puedes probar abrir PowerShell manualmente:
+     - Busca "PowerShell" en el menú inicio → clic derecho → Ejecutar como administrador
+     - Escribe:
+       Set-ExecutionPolicy Bypass -Scope Process -Force
+     - Luego ejecuta:
+       .\install.ps1
+
+3. INSTALACIÓN MANUAL
+-----------------------
+Si prefieres instalar todo a mano, aquí están los enlaces directos:
+
+🔹 PYTHON
+   Página oficial:
+   https://www.python.org/downloads/windows/
+   - Descarga el instalador (ej: "Windows installer (64-bit)")
+   - Marca la casilla "Add Python to PATH" durante la instalación
+
+🔹 NODE.JS
+   Página oficial:
+   https://nodejs.org/
+   - Descarga la versión LTS recomendada
+   - Sigue el asistente de instalación
+
+🧪 VERIFICAR INSTALACIÓN (en consola o PowerShell):
+---------------------------------------------------
+python --version
+pip --version
+node -v
+npm -v
+
+Si ves las versiones sin errores, ¡todo está instalado correctamente!
+
+💬 SOPORTE
+----------
+Si el problema persiste, puedes buscar ayuda en:
+
+- StackOverflow: https://stackoverflow.com/
+- Foros de Python o Node.js
