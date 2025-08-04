@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Preview](https://media.discordapp.net/attachments/1393487644482343023/1402000676195930316/image.png?ex=68925261&is=689100e1&hm=381c40794ee70bf2d0f57fba6b956cb3a84530d1b63d23c946be43239b782d7b&=&format=webp&quality=lossless&width=1147&height=602)
+![Logo](https://media.discordapp.net/attachments/1401931197814411425/1401965453542162513/file_00000000885c624680f01a3aae9340a0.png?ex=68923193&is=6890e013&hm=a45533c565e5e1e32788d9392e359ffe24605db9272e088d49e7093c23810804&=&format=webp&quality=lossless&width=716&height=716)
 
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -15,6 +15,8 @@
 ![License](https://img.shields.io/badge/License-Enterprise-gold?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge)
 ![Version](https://img.shields.io/badge/Version-Enterprise-blue?style=for-the-badge)
+
+![Preview](https://media.discordapp.net/attachments/1393487644482343023/1402000676195930316/image.png?ex=68925261&is=689100e1&hm=381c40794ee70bf2d0f57fba6b956cb3a84530d1b63d23c946be43239b782d7b&=&format=webp&quality=lossless&width=1147&height=602)
 
 **🛡️ Enterprise-Grade Security Assessment Platform for Minecraft Infrastructure**
 
