@@ -62,6 +62,6 @@ class Command:
             mcwrite(" - &8&l[&f&lDesconectado del servidor por el usuario&8&l]")
 
         except Exception:
-            # Muestra un mensaje genérico sin registrar detalles
+            
             mcwrite("")
             mcwrite(" - &8&l[&f&lOcurrió un error inesperado, por favor revisa la configuracion&8&l]")
